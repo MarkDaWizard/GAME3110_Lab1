@@ -270,6 +270,15 @@ static public class GameContent
     {
         return systemManager.GetComponent<SystemManager>().GetPartyNameFromInput();
     }
+   
+    static public string GetSelectedPartyNameFromDropDown()
+    {
+       return systemManager.GetComponent<SystemManager>().GetSelectedPartyNameFromDropDown();
+    }
+    static public void SetSelectedPartyNameFromDropDown()
+    {
+        systemManager.GetComponent<SystemManager>().SetSelectedPartyNameFromDropDown();
+    }
 
 }
 
